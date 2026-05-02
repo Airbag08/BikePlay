@@ -125,6 +125,9 @@ Ensure the Wear module's `AndroidManifest.xml` includes:
 <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 ```
 ## Running the System
+### Add your Personal Biometric Data: 
+In `TerminalFragment.java`, modify lines 119-121 to change your age, weight (kg) and indicate whether you are male or female for accurate calorie calcuation
+
 ### Mount the Hardware: 
 Secure the ESP32 and MPU6050 to the bike frame. Ensure the MPU6050 is mounted perfectly level to the ground for accurate base incline readings. Align the A3144 sensor on the fork so the spoke magnet passes within ~5mm of the flat face.
 
